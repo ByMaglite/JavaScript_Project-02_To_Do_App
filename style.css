@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+    
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#container{
+    height: 100vh;
+    width: 60%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 5px 5px #888888
+}
+
+ 
+#main {
+    width: 500px;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#heading {
+    color: rgba(63, 61, 61, 1);
+    margin-bottom:50px;
+    font-size:28px;
+}
+
+
+#input {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-bottom:50px;
+}
+
+.inp{
+    display: flex;
+}
+
+input {
+    border:0.1px solid rgb(226, 196, 248);
+    border-radius: 5px;
+    background-color:rgb(247, 251, 251);
+}
+
+.inpLeft input {
+    width: 300px;
+}
+
+#todoİnput {
+    font-size: 24px;
+}
+
+.addButton {
+    background-color:#7cd409;
+    border:0.1px solid rgb(226, 196, 248);
+    border-radius: 5px;
+    cursor: pointer;
+    padding:10px;
+}
+
+#clearButton {
+    background-color:#f82509;
+    border:0.1px solid rgb(226, 196, 248);
+    border-radius: 5px;
+    cursor: pointer;
+    padding:10px;
+}
+
+#list {
+    height:300px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraph-style {
+    font-size:30px;
+    color: black;
+    background-color:#7cd409;
+    margin-bottom:15px;
+    text-align:left;
+}
+
+
+@media (max-width:500px) {
+    .inp  {
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        width:100px;
+    }
+
+    #heading {
+        font-size:15px;
+        text-align:center;
+    }
+}
