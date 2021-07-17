@@ -99,10 +99,13 @@ input {
 
 @media (max-width:500px) {
     .inp  {
-        flex-direction: column;
+        flex-direction:column;
         justify-content: center;
         align-items:center;
-        width:50px;
+        width:10px;
+    }
+    .inpLeft input {
+        width: 200px;
     }
 
     #heading {
